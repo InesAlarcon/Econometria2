@@ -1,0 +1,7 @@
+Nombre del modelo,Hyper-parámetros ganadores,RMSE de registro,Variables incluidas,Tag del modelo,Id,Comentario final
+Gradient Boosting,"{'learning_rate': 0.2, 'n_estimators': 200}",456898.36754566303,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,1,Buen desempeño general.
+Random Forest,"{'max_depth': 10, 'n_estimators': 200}",478552.3777370654,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,2,Resultados aceptables.
+Árbol de Decisión,{'max_depth': 10},515229.6623896531,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,3,Sobreajuste evidente.
+Regresión Lineal,{},555281.4789518176,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,4,Buen desempeño con ensambles.
+KNN,{'n_neighbors': 15},560388.4248866541,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,5,Buen rendimiento para vecinos cercanos.
+SVR,"{'C': 0.1, 'kernel': 'rbf'}",563710.7726787844,"['Temperature', 'Fuel_Price', 'CPI', 'Unemployment', 'Holiday_Flag', 'DayOfWeek', 'IsWeekend']",Deprecated,6,Comentario adicional para el sexto modelo (si aplica).
